@@ -1,0 +1,83 @@
+.main {
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.navbar {
+    background-color: #7572c0 !important;
+}
+
+.sidebar {
+    background-color: #070F2B;
+    color: white;
+}
+
+.sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 18px 30px;
+}
+
+.sidebar a:hover{
+    background: #131246d8;
+}
+
+.active {
+    background: #1B1A55;
+    border-right: solid 8px #9290C3;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+.card-data{
+    border: 1px solid;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 5px;
+    border-left: 7px solid rgb(56, 56, 146);
+    border-right: 7px solid rgb(56, 56, 146);
+}
+
+.card-data:hover{
+    background-color: #040c28 !important;
+}
+
+.card-data.book{
+    background-color: #1B1A55;
+}
+
+.card-data.category{
+    background-color: #1B1A55;
+}
+
+.card-data.user{
+    background-color: #1B1A55;
+}
+
+.card-data i{
+   font-size: 70px;
+}
+.card-desc{
+    font-size: 30px;
+}
+
+.card-count{
+    font-size: 20px;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
